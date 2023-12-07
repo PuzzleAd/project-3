@@ -1,0 +1,195 @@
+/* gives dimensions to our page */
+body{
+    width: 100%;
+    height: 100vh;
+}
+/* gives style to our first row div */
+.head{
+    display: flex;
+    flex-direction: row;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+/* styles 10 button */
+.button10{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 12px;
+    width: 43px;
+    height: 31px;
+    border-radius: 8px;
+    background: #E0E0E0;
+    border: none;
+}
+.number10{
+    margin-right: 6px;
+}
+/* styles search button div */
+.searchdiv{
+    margin-left: 24px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    width: 218px;
+    height: 32px;
+    border-radius: 8px;
+    gap: 8px;
+    color: #9E9E9E;
+    border: 1px solid #9E9E9E;
+}
+
+input{
+    border: none;
+}
+/* styles add customer div */
+.AddCustomer{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    justify-content:center ;
+    width: 139px;
+    height: 32px;
+    margin-left: 62%;
+    border-radius: 8px;
+    background: #624DE3;
+    gap: 8px;
+    border: none;
+}
+/* styles add customer div p */
+.addcustomerp{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* styles whole table */
+table{
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+}
+/* styles all row */
+tr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    height: 64px;
+}
+/* styles all components of the table rows */
+th, td{
+    display: flex;
+    justify-content: center;
+    width: 120.75px;
+}
+/* centers last buttons */
+.lastdiv{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 16px;
+}
+/* styles last button child div */
+.lastchilddiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 12px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+/* styles heading paragraphs */
+.headingp{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 12px;
+}
+/* styles table headings */
+th{
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* styles td components'fonts */
+td{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.darkrow{
+    background-color: #F7F6FE;;
+}
+/* styles delivered buttons */
+.delivered{
+    padding: 8px 12px;
+    gap: 10px;
+    border-radius: 22px;
+    background: #EBF9F1;
+    border: none;
+    color: #1F9254;
+}
+/* styles process buttons */
+.process{
+    padding: 8px 12px;
+    gap: 10px;
+    border-radius: 22px;
+    background: #FEF2E5;
+    color: #CD6200;
+    border: none;
+}
+/* styles canceled buttons */
+.canceled{
+    padding: 8px 12px;
+    gap: 10px;
+    border-radius: 22px;
+    background: #FBE7E8;
+    color: #A30D11;
+    border: none;
+}
+/* styles last row paragraphs */
+.lastly{
+    color: #9E9E9E;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/* styles first page button */
+.firstpage{
+    width: 31px;
+    height: 31px;
+    padding: 8px 9px;
+    gap: 4px;
+    border: none;
+    border-radius: 8px;
+    background: #624DE3;
+    color: #FFF;;
+}
+/* styles other buttons */
+.otherpages{
+    width: 31px;
+    height: 31px;
+    padding: 8px 9px;
+    gap: 4px;
+    border: none;
+    border-radius: 8px;
+    background: #E0E0E0
+}
