@@ -193,3 +193,12 @@ td{
     border-radius: 8px;
     background: #E0E0E0
 }
+/* styles little images */
+.laptop1{
+    height: 32px;
+    width: 32px;
+    padding-top: 7px;
+}
+.gap{
+    gap: 5px;
+}
